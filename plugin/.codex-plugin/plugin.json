@@ -1,0 +1,25 @@
+{
+  "name": "trvl",
+  "version": "1.28.1",
+  "description": "Travel companion with flight search, trip planning, price watches, and destination research.",
+  "author": {
+    "name": "Mikko Parkkola",
+    "url": "https://github.com/MikkoParkkola"
+  },
+  "homepage": "https://github.com/MikkoParkkola/trvl/tree/main/plugin",
+  "repository": "https://github.com/MikkoParkkola/trvl",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "keywords": ["travel", "mcp", "flights", "hotels", "trip-planning", "price-watch", "destination-research"],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "agents": ["./agents/trip-coordinator.md"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "trvl",
+    "shortDescription": "Search flights and track travel prices",
+    "category": "Travel",
+    "capabilities": ["Read", "Write"],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}
